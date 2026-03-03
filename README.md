@@ -1,8 +1,6 @@
 ## Vulnerable Web Lab (Educational Purpose Only)
 # Project Overview:
-
 This is a simple intentionally vulnerable website created for learning and practicing basic web security concepts.
-
 The goal of this project is to understand how common web vulnerabilities work in a safe and controlled environment.
 
 ## This project is for educational purposes only.
