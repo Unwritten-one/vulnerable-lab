@@ -4,7 +4,7 @@ This is a simple intentionally vulnerable website created for learning and pract
 The goal of this project is to understand how common web vulnerabilities work in a safe and controlled environment.
 
 ## This project is for educational purposes only.
-# Do not use these techniques on websites you do not own.
+## Do not use these techniques on websites you do not own.
 
 ## Live Demo:
 https://unwritten-one.github.io/vulnerable-lab/
