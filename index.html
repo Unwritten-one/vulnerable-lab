@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Lab</title>
+</head>
+<body>
+
+<h2>Login Page</h2>
+
+<form onsubmit="return checkLogin()">
+    Username: <input type="text" id="username"><br><br>
+    Password: <input type="password" id="password"><br><br>
+    <input type="submit" value="Login">
+</form>
+
+<p id="message"></p>
+
+<hr>
+
+<h2>Search</h2>
+<input type="text" id="search">
+<button onclick="search()">Search</button>
+
+<p id="output"></p>
+
+<script>
+function checkLogin() {
+    var user = document.getElementById("username").value;
+    var pass = document.getElementById("password").value;
+
+    if(user == "admin" && pass == "1234") {
+        document.getElementById("message").innerHTML = "Welcome Admin!";
+    } else {
+        document.getElementById("message").innerHTML = "Invalid credentials!";
+    }
+
+    return false;
+}
+
+function search() {
+    var input = document.getElementById("search").value;
+    document.getElementById("output").innerHTML = "You searched for: " + input;
+}
+</script>
+
+</body>
+</html>
