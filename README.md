@@ -22,7 +22,7 @@ innerHTML executes injected HTML/JS.
 # 2️ Client-Side Authentication Flaw
 Login validation is done entirely in JavaScript.
 ## Hardcoded credentials:
-Username: admin
+Username: admin ,
 Password: 1234
 ## Why it is insecure:
 Anyone can view source code.
